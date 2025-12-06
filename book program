@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Book &amp; Program – I-M-POSSIBLE®</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="I-M-POSSIBLE® Book and Brain-Building Blueprint – educational tools, belief charts and micro-practices that turn impossible situations into I.M.Possible outcomes.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">I-M-POSSIBLE®</span>
+      <span class="brand-tagline">Redefine IMPOSSIBLE. Reinvent POSSIBLE.</span>
+    </a>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Jamie</a>
+      <a href="book-program.html">Book &amp; Program</a>
+      <a href="coaching.html">Coaching / Consulting</a>
+      <a href="speaking.html">Speaking</a>
+      <a href="resources.html">Resources</a>
+      <a href="support.html">Support Services</a>
+    </nav>
+  </div>
+</header>
+
+<main class="main container">
+
+  <!-- HERO / OVERVIEW -->
+  <section class="section">
+    <h1>I-M-POSSIBLE® Book &amp; Brain-Building Blueprint</h1>
+    <div class="card">
+      <p>
+        <em>I-M-POSSIBLE MUSCLE® for the Mind</em> is more than a program. It equips you for an entire way of life.
+        The book introduces a micro-blueprint for building your brain, developing a new way of thinking, and
+        reclaiming a measure of control over how you respond to what is happening—so you can influence the best
+        possible outcome, even when circumstances feel unfair or impossible.
+      </p>
+      <p>
+        Instead of offering vague “believe to achieve” slogans, I-M-POSSIBLE® walks you through specific,
+        brain-based steps for moving from IMPOSSIBLE beliefs to I.M.POSSIBLE beliefs in situations that matter
+        deeply to you.
+      </p>
+    </div>
+  </section>
+
+  <!-- WHAT YOU LEARN -->
+  <section class="section">
+    <h2>What You Learn in I-M-POSSIBLE®</h2>
+    <div class="card">
+      <ul>
+        <li><strong>How Beliefs Become Outcomes:</strong> Using the I-M-POSSIBLE® belief charts, you see how
+            different thoughts send your brain down very different paths—IMPOSSIBLE versus I.M.POSSIBLE.</li>
+        <li><strong>How to Build an I-M-POSSIBLE® Muscle:</strong> Simple, repeatable mental “reps” that help your
+            brain learn new prediction patterns over time.</li>
+        <li><strong>The Law of Subtraction:</strong> A practical way to remove mental clutter, unhelpful tasks and
+            invisible “mind drains” so your brain has capacity to learn something new.</li>
+        <li><strong>Mastering the Moment:</strong> Tools for using the one moment you still have power over—this
+            one—when everything feels overwhelming or hopeless.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CLASS 41 – EDUCATIONAL MATERIALS -->
+  <section class="section">
+    <h2>I-M-POSSIBLE® Educational Materials – Class 41</h2>
+    <div class="card">
+      <p><strong>Under Class 41, I-M-POSSIBLE® is used in connection with educational materials and training tools, including:</strong></p>
+      <ul>
+        <li>I-M-POSSIBLE® belief-to-outcome charts contrasting IMPOSSIBLE and I.M.POSSIBLE pathways.</li>
+        <li>I-M-POSSIBLE® written exercises and “write-in” pages that help readers identify and reframe
+            their own thought patterns.</li>
+        <li>I-M-POSSIBLE® micro-practice labs—small, real-world experiments that let you test new responses
+            safely and track what happens.</li>
+        <li>I-M-POSSIBLE® course and workshop content, such as concepts from the Life Optimization
+            “Law of Subtraction” series.</li>
+      </ul>
+      <p>
+        These materials are designed for use by individuals, groups and organizations who want practical,
+        neuroscience-informed tools for changing outcomes in everyday life.
+      </p>
+    </div>
+  </section>
+
+  <!-- WRITE-IN & PRACTICE -->
+  <section class="section">
+    <h2>Write-In Exercises &amp; Practice Labs</h2>
+    <div class="card">
+      <p>
+        A core feature of I-M-POSSIBLE® is its emphasis on writing and practice. Many sections of
+        <em>I-M-POSSIBLE MUSCLE® for the Mind</em> are designed as “write-in” pages so you are not just reading
+        about change—you are physically mapping your own beliefs, patterns and experiments on paper.
+      </p>
+      <p>
+        The book guides you through:
+      </p>
+      <ul>
+        <li>Identifying where your brain currently predicts “IMPOSSIBLE.”</li>
+        <li>Designing I.M.POSSIBLE® tests—small, concrete actions you can take in the real world.</li>
+        <li>Recording what happens, what you notice, and how your brain responds over time.</li>
+      </ul>
+      <p>
+        This repeated loop of mapping, experimenting and reflecting is what gradually builds an
+        I-M-POSSIBLE® Muscle in the mind.
+      </p>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF / ENDORSEMENTS (PARAPHRASED) -->
+  <section class="section">
+    <h2>What Readers and Experts Are Saying</h2>
+    <div class="card">
+      <p>
+        Early readers, including bestselling authors, business leaders and professionals, have described
+        I-M-POSSIBLE® as a rare blend of scientific insight, imaginative storytelling and practical tools.
+        Endorsements highlight its ability to make complex neuroscience understandable and to give people
+        hope and steps they can actually use.
+      </p>
+      <p>
+        Collaborators in neuroscience and education have noted that the I-M-POSSIBLE® material aligns with
+        what we know about how the brain changes—while keeping the tone human, encouraging and real-world.
+      </p>
+      <p>
+        These responses support the use of I-M-POSSIBLE® and I-M-POSSIBLE MUSCLE® as distinctive educational
+        brands in commerce.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>I-M-POSSIBLE® is a registered trademark of Jamie DeNovo. I-M-POSSIBLE MUSCLE® is a registered trademark brand name and may not be used for commercial purposes.</p>
+    <p>Contact: <a href="mailto:jamiedenovo@gmail.com">jamiedenovo@gmail.com</a></p>
+    <p>&copy; <span id="year"></span> I-M-POSSIBLE®. www.i-m-possible.com</p>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</footer>
+
+</body>
+</html>
