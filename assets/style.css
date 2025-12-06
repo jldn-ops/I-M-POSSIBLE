@@ -1,0 +1,141 @@
+*{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --bg:#ffffff;
+  --text:#111111;
+  --muted:#555555;
+  --accent:#2563eb;
+  --card:#f8fafc;
+  --border:#e5e7eb;
+  --maxw:980px;
+  --newsclub-bg:#ffb000;
+  --newsclub-bg-hover:#ff9a00;
+  --newsclub-text:#111111;
+}
+
+body{
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.7;
+}
+
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:1.25rem;
+}
+
+.header{
+  border-bottom:1px solid var(--border);
+  background:#ffffff;
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+
+.nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  padding:0.75rem 0;
+}
+
+.brand{
+  display:flex;
+  flex-direction:column;
+}
+
+.brand-mark{
+  font-weight:800;
+  font-size:1.2rem;
+  letter-spacing:0.06em;
+}
+
+.brand-tagline{
+  font-size:0.85rem;
+  color:var(--muted);
+}
+
+.menu{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.75rem;
+}
+
+.menu a{
+  padding:0.3rem 0.6rem;
+  border-radius:8px;
+}
+
+.menu a:hover{
+  background:var(--card);
+}
+
+.main{
+  padding:2rem 0;
+}
+
+.section{
+  margin-bottom:2rem;
+}
+
+.section h1,
+.section h2{
+  margin-bottom:0.75rem;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:1rem;
+  margin-bottom:1rem;
+}
+
+.footer{
+  border-top:1px solid var(--border);
+  margin-top:2rem;
+  padding:1.25rem 0;
+  font-size:0.95rem;
+  color:var(--muted);
+}
+
+/* NEWSCLUB button */
+.newsclub-section{
+  text-align:center;
+  margin-top:1.5rem;
+}
+
+.newsclub-button{
+  display:inline-block;
+  margin-top:0.75rem;
+  padding:0.7rem 1.8rem;
+  border-radius:999px;
+  border:2px solid #d18a00;
+  background:var(--newsclub-bg);
+  color:var(--newsclub-text);
+  font-weight:700;
+  font-size:0.95rem;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  box-shadow:0 3px 0 #d18a00;
+}
+
+.newsclub-button:hover{
+  background:var(--newsclub-bg-hover);
+  text-decoration:none;
+}
+
+/* Simple responsive tweak */
+@media (max-width:840px){
+  .nav{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+}
+
