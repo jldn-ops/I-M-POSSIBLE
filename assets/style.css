@@ -73,3 +73,186 @@ a:hover{text-decoration:underline}
 
 .menu{
   display:flex;
+  flex-wrap:wrap;
+  gap:0.75rem;
+}
+
+.menu a{
+  padding:0.3rem 0.6rem;
+  border-radius:999px;
+  font-size:0.9rem;
+}
+
+.menu a:hover{
+  background:var(--accent-soft);
+}
+
+/* Layout */
+.main{
+  padding:2.25rem 0;
+}
+
+.section{
+  margin-bottom:2.25rem;
+}
+
+.section h1,
+.section h2{
+  margin-bottom:0.85rem;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:1.25rem 1.4rem;
+  margin-bottom:1rem;
+  box-shadow:var(--shadow);
+}
+
+/* Hero image on Books page */
+.hero-card{
+  background:var(--bg-dark);
+  border-radius:18px;
+  padding:0.75rem;
+  box-shadow:var(--shadow);
+}
+
+.hero-image{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:12px;
+}
+
+/* Free chapter section */
+.free-section{
+  background:#111827;
+  color:#e5e7eb;
+  border-radius:18px;
+  padding:1.25rem 1.4rem 1.5rem;
+  box-shadow:var(--shadow);
+}
+
+.free-section h2{
+  color:#f9fafb;
+}
+
+.free-hero{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:12px;
+  margin:0.75rem 0 0.75rem;
+}
+
+/* Book grid */
+.book-grid{
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0,1fr));
+  gap:1.2rem;
+  margin-top:1rem;
+}
+
+.book-card{
+  background:#ffffff;
+  border-radius:14px;
+  border:1px solid var(--border);
+  padding:1rem 1.1rem 1.25rem;
+  box-shadow:var(--shadow);
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.book-card h2{
+  font-size:1.05rem;
+  margin-bottom:0.6rem;
+}
+
+.book-card p{
+  font-size:0.95rem;
+  color:var(--muted);
+  margin-bottom:0.55rem;
+}
+
+/* Buttons */
+.button{
+  display:inline-block;
+  margin-top:0.35rem;
+  padding:0.55rem 1.5rem;
+  border-radius:999px;
+  border:2px solid var(--button-gold-border);
+  background:var(--button-gold);
+  color:var(--newsclub-text);
+  font-weight:700;
+  font-size:0.9rem;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  box-shadow:0 3px 0 var(--button-gold-border);
+  text-align:center;
+}
+
+.button:hover{
+  background:var(--newsclub-bg-hover);
+  text-decoration:none;
+}
+
+.button-secondary{
+  background:#111827;
+  border-color:#020617;
+  color:#f9fafb;
+  box-shadow:0 3px 0 #020617;
+}
+
+.button-secondary:hover{
+  background:#020617;
+}
+
+/* NEWSCLUB button */
+.newsclub-section{
+  text-align:center;
+  margin-top:1.5rem;
+}
+
+.newsclub-button{
+  display:inline-block;
+  margin-top:0.75rem;
+  padding:0.7rem 1.8rem;
+  border-radius:999px;
+  border:2px solid var(--button-gold-border);
+  background:var(--newsclub-bg);
+  color:var(--newsclub-text);
+  font-weight:700;
+  font-size:0.95rem;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  box-shadow:0 3px 0 var(--button-gold-border);
+}
+
+.newsclub-button:hover{
+  background:var(--newsclub-bg-hover);
+  text-decoration:none;
+}
+
+/* Footer */
+.footer{
+  border-top:1px solid var(--border);
+  margin-top:2.5rem;
+  padding:1.25rem 0 1.75rem;
+  font-size:0.95rem;
+  color:var(--muted);
+  background:#ffffff;
+}
+
+/* Responsive */
+@media (max-width:900px){
+  .nav{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .book-grid{
+    grid-template-columns:1fr;
+  }
+}
